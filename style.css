@@ -1,0 +1,32 @@
+.left{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    width: 100px;
+    flex: 1;
+}
+.center{
+    display: flex;
+    flex: 2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex: 1;
+}
+img{
+    height: 100px;
+}
+.center .submit{
+    height: 23px;
+}
+.left .logo i{
+    color:red;
+    
+}
